@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAshboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js" integrity="sha512-mDe5mwqn4f61Fafj3rll7+89g6qu7/1fURxsWbbEkTmOuMebO9jf1C3Esw95oDfBLUycDza2uxAiPa4gdw/hfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar Menu -->
+        <aside id="sidebar">
+            <div class="sidebarlogo">
+                <a href="#" class="sidebar-logo">
+                    <h3>Rohit</h3>
+                </a>
+            </div>
+            <div class="sidebar-menu">
+                <ul class="sidebarmenu-items">
+                    <a href="#" onclick="sdropdown()">
+                        <li>home
+                        <ul class="sidebarsub-menu">
+                            <li>Item-1</li>
+                            <li>Item-2</li>
+                            <li>Item-3</li>
+                        </ul>
+                    </li>
+                </a>
+                    <li>details</li>
+                    <li>profile</li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Main section -->
+        <div class="main">
+            <nav class="navbar">
+                <button class="toggle" onclick="toggleSidemenu()">
+                    --<br>
+                    --
+                </button>
+                <div class="navbar-logo">
+                    <a href="#" onclick="dropdown()">
+                        <img src="https://static.vecteezy.com/system/resources/previews/024/183/502/original/male-avatar-portrait-of-a-young-man-with-a-beard-illustration-of-male-character-in-modern-color-style-vector.jpg" alt="">
+                    </a>
+                    <div class="dropdown">
+                        <ul id="dropdown-menu">
+                            <li>profile</li>
+                            <li>Setting</li>
+                            <li>Logout</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="heading">
+                    <h1>Dashboard</h1>
+                    <a href=""><span>Home/</span></a>
+                    <a href=""><span>Dashboard</span></a>
+                </div>
+                <div class="hero">
+                    <div class="chart">
+                        <div class="chart-1">
+                            <div id="charts">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-grp">
+                            <div class="item">Item-1
+
+                            </div>
+                            <div class="item">Item-2
+
+                            </div>
+                            <div class="item">Item-3
+
+                            </div>
+                            <div class="item">Item-4
+
+                            </div>
+                        </div>
+                        <div class="card-alone">
+                            <div class="card-body">
+                                <div class="card-info">
+                                    <h4>welcome</h4>
+                                    <p>male-avatar-portrait-of-a-young-man-with</p>
+                                </div>
+                                <div class="card-img">
+                                    <img src="images/pngtree-santa-claus-with-a-white-beard-png-image_8804338.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="users">
+                    <div class="card1" style="width: 18rem;">
+                        <img src="images/pngtree-santa-claus-with-a-white-beard-png-image_8804338.png" class="card-img-top" alt="...">
+                        <div class="cardo-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card2" style="width: 18rem;">
+                        <img src="images/pngtree-santa-claus-with-a-white-beard-png-image_8804338.png" class="card-img-top" alt="...">
+                        <div class="cardo-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card3" style="width: 18rem;">
+                        <img src="images/pngtree-santa-claus-with-a-white-beard-png-image_8804338.png" class="card-img-top" alt="...">
+                        <div class="cardo-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card4" style="width: 18rem;">
+                        <img src="images/pngtree-santa-claus-with-a-white-beard-png-image_8804338.png" class="card-img-top" alt="...">
+                        <div class="cardo-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
