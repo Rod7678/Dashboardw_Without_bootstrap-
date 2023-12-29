@@ -92,8 +92,8 @@ li{
     border-bottom: 1.5px solid var(--bs-primary-color);
     padding: 1rem;
     display: flex;
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
     width: 100%;
     z-index: 999;
 }
@@ -117,7 +117,7 @@ li{
 
 
 .dropdown{
-    background-color: var(--bs-primary-color);
+    background-color: var(--bs-side-color);
     opacity: 0;
     height: 0;
     transform: translateY(-3px);
@@ -142,7 +142,7 @@ li{
     align-items: first baseline;
     justify-content: space-between;
     padding: 1.2rem;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 .heading h1{
     margin-right: .5rem;
