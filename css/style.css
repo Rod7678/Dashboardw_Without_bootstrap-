@@ -95,7 +95,6 @@ li{
     position: fixed;
     top: 0;
     width: 100%;
-   
     z-index: 999;
 }
 .navbar button{
@@ -141,6 +140,7 @@ li{
 .heading{
     display: flex;
     align-items: first baseline;
+    justify-content: space-between;
     padding: 1.2rem;
     margin-top: 4rem;
 }

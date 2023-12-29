@@ -11,6 +11,18 @@ const sdropdown = ()=>{
 const dropmenu = document.querySelector(".dropdown");
 const dropdown = ()=>{dropmenu.classList.toggle("active")}
 
+
+// Date & Time
+(function(){
+  setInterval(()=>{
+    let d = new Date().toLocaleString();
+    document.getElementById("time").innerHTML = d;
+  },1000)
+})();
+
+
+
+
 // chart
 var options = {
     series: [{
